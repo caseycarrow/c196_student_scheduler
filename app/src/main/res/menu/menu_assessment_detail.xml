@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Set start notification"
+        android:orderInCategory="100"
+        android:id="@+id/notifyAssessmentStart"/>
+    <item android:title="Set end notification"
+        android:orderInCategory="100"
+        android:id="@+id/notifyAssessmentEnd"/>
+    <item android:id="@+id/deleteAssessment"
+        android:orderInCategory="101"
+        android:title="Delete" />
+</menu>

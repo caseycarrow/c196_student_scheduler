@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Student Scheduler C196 Casey Ancarrow</string>
+    <string name="save">Save</string>
+    <string name="add_edit_term_end">Add/Edit Term End</string>
+    <string name="add_edit_term_start">Add/Edit Term Start</string>
+    <string name="term_start">Term Start:</string>
+    <string name="add_edit_term_name">Add/Edit Term Name</string>
+    <string name="term_name">Term Name:</string>
+    <string name="term_end">Term End:</string>
+    <string name="notify_start">Notify Start</string>
+    <string name="share_note">Share Note</string>
+    <string name="notify_end">Notify End</string>
+    <string name="delete">Delete</string>
+    <string name="todo">TODO</string>
+    <string name="_11_26_2023">11/26/2023</string>
+    <string name="channel_name">channel</string>
+    <string name="channel_description">myChannelDescription</string>
+    <string name="refresh">Refresh</string>
+    <string name="mm_dd_yyyy">MM/DD/YYYY</string>
+    <string name="mm_dd_yy">MM/dd/yy</string>
+    <string name="_12_03_23">12/03/23</string>
+</resources>

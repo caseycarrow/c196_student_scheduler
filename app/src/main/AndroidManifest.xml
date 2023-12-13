@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudentSchedulerC196CaseyAncarrow"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".UI.CourseDetails"
+            android:exported="false"
+            android:label="Add/Edit Course"
+            android:parentActivityName=".UI.CourseList"/>
+
+
+        <activity
+            android:name=".UI.AssessmentDetails"
+            android:exported="false"
+            android:label="Add/Edit Assessment"
+            android:parentActivityName=".UI.AssessmentList"/>
+
+
+        <activity
+            android:name=".UI.AssessmentList"
+            android:exported="false"
+            android:label="Assessment List"
+            android:parentActivityName=".UI.MainActivity"/>
+
+
+        <activity
+            android:name=".UI.CourseList"
+            android:exported="false"
+            android:label="Course List"
+            android:parentActivityName=".UI.MainActivity"/>
+
+        <activity
+            android:name=".UI.TermDetails"
+            android:exported="false"
+            android:label="Term Details"
+            android:parentActivityName=".UI.TermsList" />
+
+        <activity
+            android:name=".UI.TermsList"
+            android:exported="false"
+            android:label="Terms List"
+            android:parentActivityName=".UI.MainActivity" />
+
+        <receiver
+            android:name=".UI.MyReceiver"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="ExportedReceiver" />
+        <activity
+            android:name=".UI.MainActivity"
+            android:exported="true"
+            android:label="Main Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
